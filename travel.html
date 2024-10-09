@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+
+    <!--cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!---css link-->
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <!---header section start-->
+    <header>
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="Logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#gallary">Gallary</a>
+            <a href="#services">Services</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+<!---header section ends-->
+
+<!--login section starts-->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit"  value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label fore="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account?<a href="#">register now</a></p>
+    </form>
+</div>
+
+<!---login section ends-->
+
+<!---home section-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>No! It's INDIA...  <br> Come Let's Feel The Beauty Of INDIA..</h3> 
+         
+        <a href="#" class="btn">Discover more...</a>
+    </div>
+
+    <div class="video-container">
+        <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!--home section end-->
+
+<!--booking section starts-->
+<section class="book" id="book">
+     <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+     </h1>
+
+     <div class="row">
+        <div class="image">
+            <img src="india.jpeg" height="600px" width="500px"  alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Where To</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>How Many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+     </div>
+</section>
+ <!--booking section ends-->
+
+ <!---package section starts-->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+     </h1>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="taj mahal.jpeg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> Agra (Taj Mahal)</h3>
+                <p>The taj-mahal is located on the bank of the Yamuna river in Agra. The taj-mahal was built by Mughal emperor Shah Jahan between 1631 and 1648 to honour his wife ,"Mumtaz Mahal".</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="swaminarayan.jpeg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> SwamiNarayan Temple</h3>
+                <p>Shri Swaminarayan Mandir is the first temple Swaminarayan constructed. It was built in Ahmedabad in 1822, and presents images of Nara Narayana, who occupies the principal seat of the temple, and forms of Arjuna and Krishna at the central altar. The left altar has murtis of Radha Krishna.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="golden temple.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i>Golden Temple</h3>
+                <p> Golden Temple was founded in 1574 by the fourth Sikh Guru, Guru Ram Das2. The Gurudwara was completed in 1604 and has a square plan with four entrances1. The ceiling of Harmandir Sahib is made with gold and precious stones. The temple is surrounded by a Sarovar (holy water tank), which is considered to be the “pool of nectar”.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="munnar.jpeg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i>Munnar</h3>
+                <p>Munnar is a town and hill station located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level,[4] in the Western Ghats mountain range. Munnar is also called the "Kashmir of South India" and is a popular honeymoon destination</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="ganga ghat.jpg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i>Varanasi (Ganga Ghat)</h3>
+                <p>A Ganga ghat in varanasi is a series of steps leading down to the river Ganges, typically found in the holy city of Varanasi, India. Ghats are used for bathing, performing religious rituals, and as a place for pilgrims to gather. The Ganges River is considered sacred in Hinduism and the ghats are considered an important pilgrimage site for Hindus. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="kumbhalgarh.jpeg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> kumbhalGarh</h3>
+                <p>Kumbhalgarh ( "Kumbhal fort"), also known as the Great Wall of India, is a fortress on the westerly range of Aravalli Hills in the Rajsamand district of the Rajasthan state in India. Situated approximately 84 km (52 mi) from Udaipur, it was built during the 15th century by Rana Kumbha. The wall of Kumbhalgarh is one of the longest continuous walls in the world, spanning 38 kilometers. It is also the birthplace of great king and military leader Maharana Pratap of Mewar.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="india gate.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> India Gate</h3>
+                <p>The India Gate (formerly known as All India War Memorial) is a war memorial located near the Rajpath (officially called Kartavya path) on the eastern edge of the "ceremonial axis" of New Delhi. It stands as a memorial to 74,187 soldiers of the Indian Army who died between 1914 and 1921 in the First World war.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="udaipur fort.jpeg"  alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> Udaipur Fort</h3>
+                <p>Udaipur is a palace complex situated in the city of Udaipur in the Indian state of Rajasthan. It was built over a period of nearly 400 years, with contributions from several rulers of the Mewar dynasty. Its construction began in 1553, started by Maharana Udai Singh II of the Sisodia Rajputanas.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+     </div>
+</section>
+
+ <!--package section ends-->
+
+ <!---services section starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+     </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            <p> Can get a good quality hotels with all facilities.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food & Drinks</h3>
+            <p>Enjoy different varieties of food and have a delicious taste of all diverse religions.</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety Guide</h3>
+            <p>Rules and regulation are given for safety purpose.</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around The World</h3>
+            <p> Some more related places that you can visit.</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest Travels</h3>
+            <p>Help you to choose the more convinient and fastest mode of travelling.</p>
+        </div>
+
+    </div>
+</section>
+<!--services section ends-->
+
+<!--gallary section starts-->
+
+
+<!--gallary section ends-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+     </h1>
+     <div class="box-container">
+         
+        <div class="box">
+            <img src="taj mahal.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>The taj-mahal is located on the bank of the Yamuna river in Agra. The taj-mahal was built by Mughal emperor Shah Jahan between 1631 and 1648.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="swaminarayan.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>Shri Swaminarayan Mandir is the first temple Swaminarayan constructed. It was built in Ahmedabad in 1822, and presents images of Nara Narayana, who occupies the principal seat of the temple, and forms of Arjuna and Krishna at the central altar.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="golden temple.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p> Golden Temple was founded in 1574 by the fourth Sikh Guru, Guru Ram Das2. The Gurudwara was completed in 1604 and has a square plan with four entrances1.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="munnar.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>Munnar is a town and hill station located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="varanasi ganga ghat.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>A Ganga ghat in varanasi is a series of steps leading down to the river Ganges, typically found in the holy city of Varanasi, India. Ghats are used for bathing, performing religious rituals, and as a place for pilgrims to gather.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="kumbhalgarh.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>Kumbhalgarh ( "Kumbhal fort"), also known as the Great Wall of India, is a fortress on the westerly range of Aravalli Hills in the Rajsamand district of the Rajasthan state in India.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="india gate.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>The India Gate (formerly known as All India War Memorial) is a war memorial located near the Rajpath (officially called Kartavya path) on the eastern edge of the "ceremonial axis" of New Delhi.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="udaipur fort.jpeg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <p>Udaipur is a palace complex situated in the city of Udaipur in the Indian state of Rajasthan. It was built over a period of nearly 400 years, with contributions from several rulers of the Mewar dynasty.</p>
+                <a href="#" class="btn">See more..</a>
+            </div>
+        </div>
+     </div>
+
+</section>
+<!--services section ends-->
+
+<!--review section starts-->
+
+<section class="review id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+     </h1> 
+     <div class="review-slider">
+        <div class="wrapper">
+            <div class="slider">
+              <div class="box">
+                  <img src="john.jpeg" alt="">
+                  <h3>John Deo</h3>
+                  <p>
+                      I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                  </p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                  </div>
+              </div>
+            </div>
+
+            <div class="slider">
+                <div class="box">
+                    <img src="peter.jpeg" alt="">
+                    <h3>Peter</h3>
+                    <p>
+                        I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                    </p>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slider">
+                <div class="box">
+                    <img src="sandy.jpeg" alt="">
+                    <h3>Sandy</h3>
+                    <p>
+                        I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                    </p>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slider">
+                <div class="box">
+                    <img src="suzan.jpeg" alt="">
+                    <h3>Suzan</h3>
+                    <p>
+                        I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                    </p>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slider">
+                <div class="box">
+                    <img src="leo.jpeg" alt="">
+                    <h3>Leo</h3>
+                    <p>
+                        I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                    </p>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                    </div>
+                </div>
+              </div>
+
+              <div class="slider">
+                <div class="box">
+                    <img src="martha.jpeg" alt="">
+                    <h3>Martha</h3>
+                    <p>
+                        I really enjoy my trip of one week and also the facilities provided by the management of tour and travel agency.
+                    </p>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                    </div>
+                </div>
+              </div>
+        </div>
+     </div>
+</section>
+<!---review section ends-->
+
+<!--contact section starts-->
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+     </h1>  
+
+     <div class="row">
+        <div class="image">
+            <img src="contact.jpeg" height="600px" width="500px"  alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="name">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+     </div>
+
+
+
+<!--contact section ends-->
+
+</body>
+</html>
